@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/style.css"/>
     <title>William's Portfolio</title>
 </head>
@@ -29,44 +30,55 @@
     
     <main>
         
-        <section>
-            <div >
-                <h2  id="about-me">About Me</h2>
+        <section class="row">
+            <aside class="col-12 col-md-2">
+                <h2 class="my-stuff" id="about-me">About Me</h2>
+            </aside>
+            <div class="col-12 col-md-5">
+                <img src="./Assets/images/coolguyphoto.jpg" alt="Fake photo of me"/>
             </div>
-            <div>
-            <img src="./Assets/images/coolguyphoto.jpg" alt="Fake photo of me"/>
-            </div>
-            <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officia optio ullam amet accusantium sapiente alias nihil reiciendis quidem, repellat earum veritatis minima voluptates quo laboriosam dolore illum. Dicta quisquam aspernatur similique necessitatibus perferendis pariatur amet at commodi, expedita debitis nemo rem? A mollitia dolor voluptatum dolores provident quas temporibus. Alias quas quae illo repellat tempore ullam cum ab excepturi exercitationem voluptatum, vero harum, doloribus quaerat earum sit accusantium. Eum.</p>
+            <div class="col-12 col-md-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officia optio ullam amet accusantium sapiente alias nihil reiciendis quidem, repellat earum veritatis minima voluptates quo laboriosam dolore illum. Dicta quisquam aspernatur similique necessitatibus perferendis pariatur amet at commodi, expedita debitis nemo rem? A mollitia dolor voluptatum dolores provident quas temporibus. Alias quas quae illo repellat tempore ullam cum ab excepturi exercitationem voluptatum, vero harum, doloribus quaerat earum sit accusantium. Eum.</p>
             </div>
         </section>
             
-        <section class="section">
-            <div>
-                <h2  id="my-work">My Work</h2>
+        <section class="section row">
+            <div class="col-12 col-md-2">
+                <h2 class="my-stuff" id="my-work">My Work</h2>
             </div>
-            <div>
-                <a href="https://wmerrill01.github.io/semantic-tagging/" target="_blank">
-                    <img class="mainPic" src="./Assets/images/work1.jpg" alt="Code Refractor work"/>
+            <div class="card bg-dark text-white col-12 col-md-10">
+                <a href="https://wmerrill01.github.io/passwordgenerator/" target="_blank">
+                    <img class="mainPic card-img" src="./Assets/images/work1.jpg" alt="password generator work"/>
+                    <div class="card-img-overlay">
+                        <h5 class=card-title>Password Generator</h5>
+                        <p class="card-text">HTML, CSS, Javascript</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="https://wmerrill01.github.io/prework-about-me/" target="_blank">
-                    <img class="secondPics" src="Assets/images/work2.jpg" alt="My about me prework" />
+            <div class="card bg-dark text-white col-12 col-md-6">
+                <a href="https://wmerrill01.github.io/weatherdashboard/" target="_blank">
+                    <img class="secondPics card-img" src="Assets/images/work2.jpg" alt="weather dashboard work" />
+                    <div class="card-img-overlay">
+                        <h5 class=card-title>Weather Dashboard</h5>
+                        <p class="card-text">HTML, CSS, Javascript, Bootstrap</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="https://wmerrill01.github.io/passwordgenerator/">
-                    <img class="secondPics" src="Assets/images/work3.jpg" alt="Password generator work" />
+            <div class="card bg-dark text-white col-12 col-md-6">
+                <a href="https://wmerrill01.github.io/dayplanner/" target="_blank">
+                    <img class="secondPics card-img" src="Assets/images/work3.jpg" alt="day planner work" />
+                    <div class="card-img-overlay">
+                        <h5 class=card-title>Day Planner</h5>
+                        <p class="card-text">HTML, CSS, Javascript, Bootstrap</p>
+                    </div>
                 </a>
             </div>
         </section>
-        
 
         <footer>
 
             <div>
-            <h2 id="contact-me">Contact Me</h2>
+                <h2 class="my-stuff" id="contact-me">Contact Me</h2>
             </div>
             <div>
                 <nav>
@@ -77,47 +89,8 @@
                     </ul>
                 </nav>
             </div>
-
-
             <h5>Made with blood, sweat and tears. Mostly just tears. ❤️️</h5>
         </footer>
-
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
-</html>
+</html> 
